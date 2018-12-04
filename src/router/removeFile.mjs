@@ -1,5 +1,5 @@
 import express from 'express'
-import Responder from '../common/Responder.mjs'
+import {Responder} from '@codate/commons'
 import RemoveFile from '../business/usecase/RemoveFile.mjs'
 
 const router = express.Router()

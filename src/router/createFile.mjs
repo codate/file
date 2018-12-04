@@ -1,5 +1,5 @@
 import express from 'express'
-import Responder from '../common/Responder.mjs'
+import {Responder} from '@codate/commons'
 import CreateFile from '../business/usecase/CreateFile.mjs'
 import Interceptor from './Interceptor.mjs'
 
